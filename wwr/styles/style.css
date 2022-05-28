@@ -1,75 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Shadows+Into+Light&display=swap');
+
 
 .logo {
     width: 80px;
+    padding-top: 5px;
 }
+
 .icon {
     width: 80px;
     padding: 25px;
+    padding-top: 10px;
 }
-.home-title{
+
+.home-title {
     color: #17C3B2;
-} 
+    margin-top: 10px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 #hero-img {
     width: 100%;
 }
-nav a{
+
+nav a {
     text-align: center;
     text-decoration: none;
-    padding: 2em;
+    padding: 35px;
     color: #17C3B2;
 }
-#hero-msg h1, #hero-msg h4{
+
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
 }
-.button-box{
+
+.button-box {
     text-align: center;
 }
-main section{
+
+main section {
     text-align: center;
 }
 
 #background {
     height: 725px;
 }
+
+h1,
+h3 {
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: x-large;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: x-large;
+    margin: 0;
+
+}
+
+p,
+li {
+    font-family: 'Oswald';
+}
+
 h4 {
-    color:#FFCB77;
+    color: #FFCB77;
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: xx-large;
 }
 
 
 body {
-    background-color: #17C3B2; 
+    background-color: #17C3B2;
+    margin: 0;
+    padding: 0;
 }
+
 header {
     background-color: #FEF9EF;
 }
+
 nav a:hover {
     background-color: #FFCB77;
     color: #FE6D73;
 }
 
-.book, .join{
-    background-color: #FFCB77 ;
+.book,
+.join {
+    background-color: #FFCB77;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
-    font-style: bold;
     color: #17C3B2;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
-.book:hover, .join:hover{
+.book:hover,
+.join:hover {
     background-color: #FE6D73;
     color: #17C3B2;
 
 }
-.msg{
-background-color:#FEF9EF ;
+
+.msg {
+    background-color: #FEF9EF;
+    padding: 35px;
 }
-footer{
+
+footer {
     background-color: #FFCB77;
 
 }
@@ -77,16 +124,42 @@ footer{
 .msg h2 {
     color: black;
 }
-.msg p{
+
+.msg p {
     color: black;
+    padding-bottom: 15px;
 }
 
-footer{
+footer {
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 footer a {
     color: black;
+
 }
+
+footer .social img {
+    padding-top: 15px;
+}
+
 footer a:hover {
     color: #FE6D73;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
