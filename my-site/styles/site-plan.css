@@ -5,13 +5,13 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94;
-  --secondary-color: #E7C24F;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #AEB8C1;
+  --secondary-color: #BD1717;
+  --accent1-color: #396E94;
+  --accent2-color: #0A0508; 
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
+  --heading-font:  'Square Peg', cursive;
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -25,9 +25,9 @@ Fonts are separated by a | */
   /* paragraph text on a colored background */
   --paragraph-background-color: #396E94;
   --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-background-color: #AEB8C1;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #BD1717;
 }
 
 
@@ -44,11 +44,11 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -56,8 +56,13 @@ h6 {
   color: var(--headline-color-on-white);
 }
 
+h3{
+  font-family: 'Rock Salt', cursive;
+}
+
 h2 {
   text-align: center;
+  font-family: 'Permanent Marker', cursive;
 }
 
 hr {
@@ -71,17 +76,20 @@ header {
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
+
 }
 
 header>h1,
 header>h2 {
   color: var(--headline-color-on-color);
+  font-family: 'Rock Salt', cursive;
 }
 
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
+  font-family: 'Anybody', cursive;
 }
 
 .colors {
@@ -114,6 +122,7 @@ p {
 
 .accent2 {
   background-color: var(--accent2-color);
+  color: #AEB8C1;
 }
 
 p.colored {
