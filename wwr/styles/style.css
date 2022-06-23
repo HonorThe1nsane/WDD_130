@@ -9,6 +9,7 @@
     padding-top: 90px;
 }
 
+
 form {
     /* Center the form on the page */
     margin: 100px auto;
@@ -540,6 +541,15 @@ main section img {
 .confirm1 .message1,
 .confirm2 .message2,
 .confirm3 .message3 {
+    padding: 25px;
+    list-style:square;
     text-align: left;
 
+}
+.confirm ,
+.confirm1,
+.confirm2,
+.confirm3 {
+    padding: 25px;
+    text-align: left;
 }

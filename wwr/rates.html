@@ -8,45 +8,8 @@
     <title>Whitewater Rafting Vacations | Dry Oar Boating | Rates & Dates</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-    function functionAlert1(msg, myYes) {
-       var confirmBox = $(".confirm1");
-       confirmBox.find(".message1").text(msg);
-       confirmBox.find(".yes1").unbind().click(function() {
-          confirmBox.hide();
-       });
-       confirmBox.find(".yes1").click(myYes);
-       confirmBox.show();
-    }
-    function functionAlert2(msg, myYes) {
-       var confirmBox = $(".confirm");
-       confirmBox.find(".message").text(msg);
-       confirmBox.find(".yes").unbind().click(function() {
-          confirmBox.hide();
-       });
-       confirmBox.find(".yes").click(myYes);
-       confirmBox.show();
-    }
-    function functionAlert3(msg, myYes) {
-       var confirmBox = $(".confirm2");
-       confirmBox.find(".message2").text(msg);
-       confirmBox.find(".yes2").unbind().click(function() {
-          confirmBox.hide();
-       });
-       confirmBox.find(".yes2").click(myYes);
-       confirmBox.show();
-    }
-    function functionAlert4(msg, myYes) {
-       var confirmBox = $(".confirm3");
-       confirmBox.find(".message3").text(msg);
-       confirmBox.find(".yes3").unbind().click(function() {
-          confirmBox.hide();
-       });
-       confirmBox.find(".yes3").click(myYes);
-       confirmBox.show();
-    }
- </script>
+
+
 <body>
     <div id="content">
         <header>
@@ -65,7 +28,7 @@
                 <img id="hero-img" src="images/river-wide.jpeg" alt="People enjoying rafting">
             </div>
             <section class="hero-msg">
-                <h1 class="trips">Upcoming Trips</h3>
+                <h1 class="trips">Upcoming Trips</h1>
             </section>
         </div>
         <h4 class="dates-heading">Prices and Dates for our 2016 Season:</h4>
@@ -74,18 +37,17 @@
                 <h3>Grand Canyon 3 Night Trips</h3>
                 <img src="images/grand-canyon.jpeg" alt="grand canyon pic">
                 <div class="confirm1">
-                    <div class="message1">
-                        <h4>Dates for Grand Canyon 3 Night:</h4><br>
+                    <h4>Dates for Grand Canyon 3 Night:</h4>
+                    <ul class="message1">
                         <li>April 30</li>
                         <li>May 13, 20, 27, 30</li>
                         <li>June 3, 10, 17, 24, 28</li>
                         <li>July 1, 8, 15, 22, 29</li>
                         <li>August 5, 12, 19, 26</li>
                         <li>September 9, 17</li>
-                        <h4>Regular Rate: $1,475</h4>
-                    </div>
+                    </ul>
+                    <h4>Regular Rate: $1,475</h4>
                     <button class="yes1">Go back</button>
-                    <div> </div>
                 </div>
                 <input type="button" value="Check Dates" onclick="functionAlert1();" />
             </div>
@@ -93,18 +55,17 @@
                 <h3>Grand Canyon 6 night trips</h3>
                 <img src="images/rafting59_600.jpeg" alt="rafting group pic">
                 <div class="confirm">
-                    <div class="message">
-                        <h4>Dates for Grand Canyon 6 Night Trips:</h4><br>
+                    <h4>Dates for Grand Canyon 6 Night Trips:</h4>
+                    <ul class="message">
                         <li>April 25</li>
                         <li>May 8, 15, 22, 25, 29</li>
                         <li>June 5, 12, 19, 23, 26</li>
                         <li>July 3, 10, 17, 24, 31</li>
                         <li>August 7, 14, 21</li>
                         <li>September 4, 12</li>
-                        <h4>Regular Rate: $2,550</h4>
-                    </div>
+                    </ul>
+                    <h4>Regular Rate: $2,550</h4>
                     <button class="yes">Go back</button>
-                    <div> </div>
                 </div>
                 <input type="button" value="Check Dates" onclick="functionAlert2();" />
             </div>
@@ -112,14 +73,13 @@
                 <h3>Salmon River 5 Night Trip</h3>
                 <img src="images/rafting58_600.jpeg" alt="rafting blue river">
                 <div class="confirm2">
-                    <div class="message2">
-                        <h4>Dates for Salmon River 5 Night Trips:</h4><br>
+                    <h4>Dates for Salmon River 5 Night Trips:</h4>
+                    <ul class="message2">
                         <li>June 3, 10, 17, 24</li>
                         <li>July 2</li>
-                        <h4>Regular Rate: $1,540</h4>
-                    </div>
+                    </ul>
+                    <h4>Regular Rate: $1,540</h4>
                     <button class="yes2">Go back</button>
-                    <div> </div>
                 </div>
                 <input type="button" value="Check Dates" onclick="functionAlert3();" />
             </div>
@@ -127,22 +87,18 @@
                 <h3>Desolation 6 Night Trip </h3>
                 <img src="images/ik-rapid.jpeg" alt="rapid river">
                 <div class="confirm3">
-                    <div class="message3">
-                        <h4>Dates for Desolation 6 Night Trips:</h4><br>
+                    <h4>Dates for Desolation 6 Night Trips:</h4>
+                    <ul class="message3">
                         <li>July 10, 18, 26 </li>
                         <li>Aug 3, 11, 19, 27</li>
                         <li>Sept 4</li>
-                        <h4>Regular Rate: $1,790</h4>
-                    </div>
+                    </ul>
+                    <h4>Regular Rate: $1,790</h4>
                     <button class="yes3">Go back</button>
-                    <div> </div>
                 </div>
                 <input type="button" value="Check Dates" onclick="functionAlert4();" />
             </div>
-
         </div>
-
-
 
         <footer>
             <h3>Dry Oar &copy; 2022 - Troy Davidson</h3>
@@ -161,6 +117,48 @@
             </div>
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        function functionAlert1(msg, myYes) {
+            var confirmBox = $(".confirm1");
+            confirmBox.find(".message1").text(msg);
+            confirmBox.find(".yes1").unbind().click(function () {
+                confirmBox.hide();
+            });
+            confirmBox.find(".yes1").click(myYes);
+            confirmBox.show();
+        }
+
+        function functionAlert2(msg, myYes) {
+            var confirmBox = $(".confirm");
+            confirmBox.find(".message").text(msg);
+            confirmBox.find(".yes").unbind().click(function () {
+                confirmBox.hide();
+            });
+            confirmBox.find(".yes").click(myYes);
+            confirmBox.show();
+        }
+
+        function functionAlert3(msg, myYes) {
+            var confirmBox = $(".confirm2");
+            confirmBox.find(".message2").text(msg);
+            confirmBox.find(".yes2").unbind().click(function () {
+                confirmBox.hide();
+            });
+            confirmBox.find(".yes2").click(myYes);
+            confirmBox.show();
+        }
+
+        function functionAlert4(msg, myYes) {
+            var confirmBox = $(".confirm3");
+            confirmBox.find(".message3").text(msg);
+            confirmBox.find(".yes3").unbind().click(function () {
+                confirmBox.hide();
+            });
+            confirmBox.find(".yes3").click(myYes);
+            confirmBox.show();
+        }
+    </script>
 </body>
 
 </html>
