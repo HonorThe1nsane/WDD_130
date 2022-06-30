@@ -154,6 +154,11 @@ nav a {
     padding: 10px;
 
 }
+nav img{
+    width: 8%;
+    float: right;
+    padding-left: 40%;
+}
 
 nav a:link,
 nav a:visited {
@@ -207,7 +212,7 @@ footer a {
 
 .games img,
 .why img {
-    height: 300px;
+    height: 300p80%;
     width: 100%;
 }
 
