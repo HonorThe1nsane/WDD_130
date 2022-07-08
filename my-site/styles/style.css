@@ -156,7 +156,7 @@ nav a {
 }
 
 nav img {
-    width: 6%;
+    width: 3.5%;
     float: right;
     padding-left: 40%;
 }
@@ -170,6 +170,8 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
+
 
 .logo {
     display: grid;
