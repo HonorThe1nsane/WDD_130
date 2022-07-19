@@ -89,7 +89,9 @@ header>h2 {
     font-family: 'Rock Salt', cursive;
 }
 
-p {
+p,
+li {
+    list-style: none;
     font-family: var(--paragraph-font);
     color: var(--paragraph-color);
     padding: 1em;
@@ -180,8 +182,11 @@ nav a:hover {
 
 .logo img {
     float: left;
-    padding-right: 5em;
+}
 
+.logo .list {
+    text-align: left;
+    font-family: 'Anybody', cursive;
 }
 
 footer {
@@ -201,12 +206,15 @@ footer a {
 .games {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    place-items:  center;
+
 
 }
 
 .container {
     position: relative;
     width: 50%;
+    
 }
 
 .image {
@@ -254,4 +262,14 @@ footer a {
 .why img {
     height: 80%;
     width: 100%;
+}
+
+.why li {
+    text-align: left;
+}
+
+.why-info {
+    margin: 10px;
+    background-color: #396E94;
+    color: aliceblue;
 }
